@@ -69,9 +69,9 @@ Cuando accedes a `this.someObject` después de asignarlo, el valor es un proxy r
 
 ## Declarando Estado Reactivo \*\* {#declaring-reactive-state-1}
 
-### `ref()` \*\* {#ref}
+###  `ref()` \*\* {#ref}
 
-En la Composition API, la manera recomendada de declarar estado reactivo es usando la función [`ref()`](/api/reactivity-core#ref):
+En la Composition API, la manera recomendada de declarar el estado reactivo es usando la función [`ref()`](/api/reactivity-core#ref):
 
 ```js
 import { ref } from 'vue'
